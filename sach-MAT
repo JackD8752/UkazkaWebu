@@ -26,15 +26,7 @@
             color: white;
         }
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: var(--danger-color);
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            text-shadow: var(--text-glow);
-            animation: fadeIn 2s ease-in;
-        }
+
 
         .chessboard {
             display: grid;
