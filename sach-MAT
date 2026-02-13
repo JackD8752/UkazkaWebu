@@ -6,7 +6,6 @@
     <title>ŠACH MAT</title>
     <style>
         :root {
-            /* Dramatické barvy */
             --bg-color: #1a1a1a;
             --board-border: #4a0000;
             --light-tile: #dcdcdc;
@@ -54,7 +53,6 @@
             cursor: default;
         }
 
-        /* Barvení políček */
         .tile:nth-child(16n + 2), .tile:nth-child(16n + 4), .tile:nth-child(16n + 6), .tile:nth-child(16n + 8),
         .tile:nth-child(16n + 9), .tile:nth-child(16n + 11), .tile:nth-child(16n + 13), .tile:nth-child(16n + 15) {
             background-color: var(--dark-tile);
@@ -66,7 +64,6 @@
             background-color: var(--light-tile);
         }
 
-        /* --- Figury --- */
         .white-piece { 
             color: #fff; 
             text-shadow: 1px 1px 2px #000;
