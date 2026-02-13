@@ -96,7 +96,6 @@
     </style>
 </head>
 <body>
-
     <h1>ŠACH MAT!</h1>
 
     <div class="chessboard">
